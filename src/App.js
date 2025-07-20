@@ -83,12 +83,12 @@ function App() {
   return (
     <div
       className='App'
-      id='top'
+      id='home'
     >
       <nav className='navbar'>
         <div className='nav-left'>
           <a
-            href='#top'
+            href='#home'
             className='nav-brand'
           >
             Y2J Studio
@@ -100,12 +100,12 @@ function App() {
             >
               About
             </a>
-            <a
+            {/* <a
               href='#projects'
               onClick={() => setIsMenuOpen(false)}
             >
               Projects
-            </a>
+            </a> */}
             <a
               href='#contact'
               onClick={() => setIsMenuOpen(false)}
@@ -219,7 +219,7 @@ function App() {
 
       <footer className='footer'>
         <div className='container'>
-          <p>© 2024 Y2J Studio. Made with passion and coffee</p>
+          <p>© 2025 Y2J Studio. Made with passion and coffee</p>
         </div>
       </footer>
     </div>
