@@ -22,22 +22,25 @@ function App() {
       const rect1 = dot1.getBoundingClientRect();
       const rect2 = dot2.getBoundingClientRect();
       const heroRect = hero.getBoundingClientRect();
-      
+
       const x1 = rect1.left + rect1.width / 2 - heroRect.left;
       const y1 = rect1.top + rect1.height / 2 - heroRect.top;
       const x2 = rect2.left + rect2.width / 2 - heroRect.left;
       const y2 = rect2.top + rect2.height / 2 - heroRect.top;
-      
+
       return {
         distance: Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2),
-        x1, y1, x2, y2
+        x1,
+        y1,
+        x2,
+        y2,
       };
     };
 
     const drawLines = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      const dots = dotsRef.current.filter(dot => dot);
-      
+      const dots = dotsRef.current.filter((dot) => dot);
+
       for (let i = 0; i < dots.length; i++) {
         let closestDot = null;
         let minDistance = Infinity;
@@ -124,12 +127,15 @@ function App() {
 
       <main className='main-content'>
         <section className='hero'>
-          <canvas ref={canvasRef} className='connection-lines'></canvas>
+          <canvas
+            ref={canvasRef}
+            className='connection-lines'
+          ></canvas>
           <div className='animated-dots'>
             {[...Array(35)].map((_, i) => (
-              <div 
-                key={i} 
-                ref={el => dotsRef.current[i] = el}
+              <div
+                key={i}
+                ref={(el) => (dotsRef.current[i] = el)}
                 className={`dot dot-${i + 1}`}
               ></div>
             ))}
@@ -150,10 +156,11 @@ function App() {
           <div className='container'>
             <h2>About Us</h2>
             <p>
-              Welcome to Y2J Studio! 👋 We're a fresh digital playground where ideas come to life. 
-              Think of us as your friendly neighborhood code wizards, brewing up websites and apps 
-              that people actually love to use. We're just getting started on this wild ride, 
-              but trust us - some seriously cool stuff is cooking in our digital kitchen! 🎨💻
+              Welcome to Y2J Studio! 👋 We're a fresh digital playground where
+              ideas come to life. Think of us as your friendly neighborhood code
+              wizards, brewing up websites and apps that people actually love to
+              use. We're just getting started on this wild ride, but trust us -
+              some seriously cool stuff is cooking in our digital kitchen! 🎨💻
             </p>
           </div>
         </section>
@@ -193,8 +200,11 @@ function App() {
         >
           <div className='container'>
             <h2>Let's Create Magic! ✨</h2>
-            <p>Got a wild idea? A crazy dream? Or just want to say hi? We're all ears! 👂 
-               Drop us a line and let's turn your vision into digital reality! 🌟</p>
+            <p>
+              Got a wild idea? A crazy dream? Or just want to say hi? We're all
+              ears! 👂 Drop us a line and let's turn your vision into digital
+              reality! 🌟
+            </p>
             <div className='contact-info'>
               <a
                 href='mailto:hello@y2jstudio.com'
