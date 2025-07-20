@@ -59,7 +59,7 @@ function App() {
 
         if (closestDot && closestCoords) {
           const opacity = Math.max(0, 1 - minDistance / 150);
-          ctx.strokeStyle = `rgba(120, 120, 120, ${opacity * 0.3})`;
+          ctx.strokeStyle = `rgba(0, 212, 255, ${opacity * 0.4})`;
           ctx.lineWidth = 1;
           ctx.beginPath();
           ctx.moveTo(closestCoords.x1, closestCoords.y1);
@@ -142,9 +142,9 @@ function App() {
           </div>
           <div className='hero-content'>
             <h1>Y2J Studio</h1>
-            <p>Where code meets creativity ✨</p>
+            <p>Where code meets creativity</p>
             <div className='hero-subtitle'>
-              Building digital magic one pixel at a time 🚀
+              Building digital experiences one pixel at a time
             </div>
           </div>
         </section>
@@ -156,11 +156,11 @@ function App() {
           <div className='container'>
             <h2>About Us</h2>
             <p>
-              Welcome to Y2J Studio! 👋 We're a fresh digital playground where
+              Welcome to Y2J Studio! We're a fresh digital playground where
               ideas come to life. Think of us as your friendly neighborhood code
               wizards, brewing up websites and apps that people actually love to
               use. We're just getting started on this wild ride, but trust us -
-              some seriously cool stuff is cooking in our digital kitchen! 🎨💻
+              some seriously cool stuff is cooking in our digital kitchen!
             </p>
           </div>
         </section>
@@ -199,18 +199,18 @@ function App() {
           className='section contact-section'
         >
           <div className='container'>
-            <h2>Let's Create Magic! ✨</h2>
+            <h2>Let's Create Magic!</h2>
             <p>
               Got a wild idea? A crazy dream? Or just want to say hi? We're all
-              ears! 👂 Drop us a line and let's turn your vision into digital
-              reality! 🌟
+              ears! Drop us a line and let's turn your vision into digital
+              reality!
             </p>
             <div className='contact-info'>
               <a
                 href='mailto:hello@y2jstudio.com'
                 className='contact-link'
               >
-                📧 hello@y2jstudio.com
+                hello@y2jstudio.com
               </a>
             </div>
           </div>
@@ -219,7 +219,7 @@ function App() {
 
       <footer className='footer'>
         <div className='container'>
-          <p>© 2024 Y2J Studio. Made with ❤️ and lots of ☕</p>
+          <p>© 2024 Y2J Studio. Made with passion and coffee</p>
         </div>
       </footer>
     </div>

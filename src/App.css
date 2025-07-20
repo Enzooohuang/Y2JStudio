@@ -128,41 +128,41 @@ body {
   opacity: 0.4;
 }
 
-.dot-1 { width: 8px; height: 8px; background: #666; top: 10%; left: 15%; animation: randomFloat1 12s ease-in-out infinite; }
-.dot-2 { width: 12px; height: 12px; background: #999; top: 25%; left: 70%; animation: randomFloat2 15s ease-in-out infinite; }
-.dot-3 { width: 6px; height: 6px; background: #333; top: 40%; left: 30%; animation: randomFloat3 18s ease-in-out infinite; }
-.dot-4 { width: 10px; height: 10px; background: #777; top: 60%; left: 80%; animation: randomFloat4 14s ease-in-out infinite; }
-.dot-5 { width: 8px; height: 8px; background: #555; top: 75%; left: 20%; animation: randomFloat5 16s ease-in-out infinite; }
-.dot-6 { width: 14px; height: 14px; background: #888; top: 15%; left: 85%; animation: randomFloat6 13s ease-in-out infinite; }
-.dot-7 { width: 6px; height: 6px; background: #444; top: 35%; left: 10%; animation: randomFloat7 17s ease-in-out infinite; }
-.dot-8 { width: 10px; height: 10px; background: #666; top: 50%; left: 60%; animation: randomFloat8 19s ease-in-out infinite; }
-.dot-9 { width: 8px; height: 8px; background: #777; top: 80%; left: 75%; animation: randomFloat9 11s ease-in-out infinite; }
-.dot-10 { width: 12px; height: 12px; background: #555; top: 20%; left: 45%; animation: randomFloat10 20s ease-in-out infinite; }
-.dot-11 { width: 6px; height: 6px; background: #999; top: 65%; left: 5%; animation: randomFloat11 14s ease-in-out infinite; }
-.dot-12 { width: 10px; height: 10px; background: #333; top: 85%; left: 40%; animation: randomFloat12 16s ease-in-out infinite; }
-.dot-13 { width: 8px; height: 8px; background: #888; top: 30%; left: 90%; animation: randomFloat13 18s ease-in-out infinite; }
-.dot-14 { width: 12px; height: 12px; background: #666; top: 70%; left: 50%; animation: randomFloat14 12s ease-in-out infinite; }
-.dot-15 { width: 6px; height: 6px; background: #444; top: 5%; left: 65%; animation: randomFloat15 15s ease-in-out infinite; }
-.dot-16 { width: 9px; height: 9px; background: #777; top: 45%; left: 25%; animation: randomFloat16 13s ease-in-out infinite; }
-.dot-17 { width: 7px; height: 7px; background: #555; top: 55%; left: 85%; animation: randomFloat17 17s ease-in-out infinite; }
-.dot-18 { width: 11px; height: 11px; background: #888; top: 12%; left: 35%; animation: randomFloat18 19s ease-in-out infinite; }
-.dot-19 { width: 8px; height: 8px; background: #333; top: 88%; left: 15%; animation: randomFloat19 14s ease-in-out infinite; }
-.dot-20 { width: 10px; height: 10px; background: #666; top: 32%; left: 75%; animation: randomFloat20 16s ease-in-out infinite; }
-.dot-21 { width: 6px; height: 6px; background: #999; top: 78%; left: 55%; animation: randomFloat21 18s ease-in-out infinite; }
-.dot-22 { width: 13px; height: 13px; background: #444; top: 18%; left: 8%; animation: randomFloat22 12s ease-in-out infinite; }
-.dot-23 { width: 7px; height: 7px; background: #777; top: 62%; left: 92%; animation: randomFloat23 20s ease-in-out infinite; }
-.dot-24 { width: 9px; height: 9px; background: #555; top: 8%; left: 48%; animation: randomFloat24 15s ease-in-out infinite; }
-.dot-25 { width: 8px; height: 8px; background: #888; top: 92%; left: 68%; animation: randomFloat25 11s ease-in-out infinite; }
-.dot-26 { width: 7px; height: 7px; background: #666; top: 38%; left: 12%; animation: randomFloat26 16s ease-in-out infinite; }
-.dot-27 { width: 10px; height: 10px; background: #333; top: 72%; left: 28%; animation: randomFloat27 14s ease-in-out infinite; }
-.dot-28 { width: 6px; height: 6px; background: #999; top: 22%; left: 58%; animation: randomFloat28 18s ease-in-out infinite; }
-.dot-29 { width: 12px; height: 12px; background: #555; top: 58%; left: 18%; animation: randomFloat29 13s ease-in-out infinite; }
-.dot-30 { width: 8px; height: 8px; background: #777; top: 95%; left: 38%; animation: randomFloat30 19s ease-in-out infinite; }
-.dot-31 { width: 9px; height: 9px; background: #444; top: 15%; left: 78%; animation: randomFloat31 12s ease-in-out infinite; }
-.dot-32 { width: 11px; height: 11px; background: #888; top: 82%; left: 88%; animation: randomFloat32 17s ease-in-out infinite; }
-.dot-33 { width: 7px; height: 7px; background: #666; top: 48%; left: 95%; animation: randomFloat33 15s ease-in-out infinite; }
-.dot-34 { width: 9px; height: 9px; background: #333; top: 28%; left: 2%; animation: randomFloat34 20s ease-in-out infinite; }
-.dot-35 { width: 8px; height: 8px; background: #555; top: 68%; left: 82%; animation: randomFloat35 11s ease-in-out infinite; }
+.dot-1 { width: 8px; height: 8px; background: #00d4ff; top: 10%; left: 15%; animation: randomFloat1 12s ease-in-out infinite; }
+.dot-2 { width: 12px; height: 12px; background: #0077ff; top: 25%; left: 70%; animation: randomFloat2 15s ease-in-out infinite; }
+.dot-3 { width: 6px; height: 6px; background: #00ff88; top: 40%; left: 30%; animation: randomFloat3 18s ease-in-out infinite; }
+.dot-4 { width: 10px; height: 10px; background: #7c3aed; top: 60%; left: 80%; animation: randomFloat4 14s ease-in-out infinite; }
+.dot-5 { width: 8px; height: 8px; background: #ff0080; top: 75%; left: 20%; animation: randomFloat5 16s ease-in-out infinite; }
+.dot-6 { width: 14px; height: 14px; background: #00d4ff; top: 15%; left: 85%; animation: randomFloat6 13s ease-in-out infinite; }
+.dot-7 { width: 6px; height: 6px; background: #22c55e; top: 35%; left: 10%; animation: randomFloat7 17s ease-in-out infinite; }
+.dot-8 { width: 10px; height: 10px; background: #0077ff; top: 50%; left: 60%; animation: randomFloat8 19s ease-in-out infinite; }
+.dot-9 { width: 8px; height: 8px; background: #ff6b35; top: 80%; left: 75%; animation: randomFloat9 11s ease-in-out infinite; }
+.dot-10 { width: 12px; height: 12px; background: #8b5cf6; top: 20%; left: 45%; animation: randomFloat10 20s ease-in-out infinite; }
+.dot-11 { width: 6px; height: 6px; background: #00ff88; top: 65%; left: 5%; animation: randomFloat11 14s ease-in-out infinite; }
+.dot-12 { width: 10px; height: 10px; background: #06b6d4; top: 85%; left: 40%; animation: randomFloat12 16s ease-in-out infinite; }
+.dot-13 { width: 8px; height: 8px; background: #f59e0b; top: 30%; left: 90%; animation: randomFloat13 18s ease-in-out infinite; }
+.dot-14 { width: 12px; height: 12px; background: #0077ff; top: 70%; left: 50%; animation: randomFloat14 12s ease-in-out infinite; }
+.dot-15 { width: 6px; height: 6px; background: #ef4444; top: 5%; left: 65%; animation: randomFloat15 15s ease-in-out infinite; }
+.dot-16 { width: 9px; height: 9px; background: #7c3aed; top: 45%; left: 25%; animation: randomFloat16 13s ease-in-out infinite; }
+.dot-17 { width: 7px; height: 7px; background: #10b981; top: 55%; left: 85%; animation: randomFloat17 17s ease-in-out infinite; }
+.dot-18 { width: 11px; height: 11px; background: #00d4ff; top: 12%; left: 35%; animation: randomFloat18 19s ease-in-out infinite; }
+.dot-19 { width: 8px; height: 8px; background: #ff0080; top: 88%; left: 15%; animation: randomFloat19 14s ease-in-out infinite; }
+.dot-20 { width: 10px; height: 10px; background: #0077ff; top: 32%; left: 75%; animation: randomFloat20 16s ease-in-out infinite; }
+.dot-21 { width: 6px; height: 6px; background: #22c55e; top: 78%; left: 55%; animation: randomFloat21 18s ease-in-out infinite; }
+.dot-22 { width: 13px; height: 13px; background: #06b6d4; top: 18%; left: 8%; animation: randomFloat22 12s ease-in-out infinite; }
+.dot-23 { width: 7px; height: 7px; background: #8b5cf6; top: 62%; left: 92%; animation: randomFloat23 20s ease-in-out infinite; }
+.dot-24 { width: 9px; height: 9px; background: #f59e0b; top: 8%; left: 48%; animation: randomFloat24 15s ease-in-out infinite; }
+.dot-25 { width: 8px; height: 8px; background: #00ff88; top: 92%; left: 68%; animation: randomFloat25 11s ease-in-out infinite; }
+.dot-26 { width: 7px; height: 7px; background: #0077ff; top: 38%; left: 12%; animation: randomFloat26 16s ease-in-out infinite; }
+.dot-27 { width: 10px; height: 10px; background: #ef4444; top: 72%; left: 28%; animation: randomFloat27 14s ease-in-out infinite; }
+.dot-28 { width: 6px; height: 6px; background: #7c3aed; top: 22%; left: 58%; animation: randomFloat28 18s ease-in-out infinite; }
+.dot-29 { width: 12px; height: 12px; background: #00d4ff; top: 58%; left: 18%; animation: randomFloat29 13s ease-in-out infinite; }
+.dot-30 { width: 8px; height: 8px; background: #10b981; top: 95%; left: 38%; animation: randomFloat30 19s ease-in-out infinite; }
+.dot-31 { width: 9px; height: 9px; background: #ff6b35; top: 15%; left: 78%; animation: randomFloat31 12s ease-in-out infinite; }
+.dot-32 { width: 11px; height: 11px; background: #8b5cf6; top: 82%; left: 88%; animation: randomFloat32 17s ease-in-out infinite; }
+.dot-33 { width: 7px; height: 7px; background: #06b6d4; top: 48%; left: 95%; animation: randomFloat33 15s ease-in-out infinite; }
+.dot-34 { width: 9px; height: 9px; background: #22c55e; top: 28%; left: 2%; animation: randomFloat34 20s ease-in-out infinite; }
+.dot-35 { width: 8px; height: 8px; background: #f59e0b; top: 68%; left: 82%; animation: randomFloat35 11s ease-in-out infinite; }
 
 .hero::after {
   content: '';
