@@ -207,8 +207,7 @@ function App() {
             </p>
             <div className='contact-info'>
               <a
-                href='mailto:=they2jstudio@gmail.com
-'
+                href='mailto:they2jstudio@gmail.com'
                 className='contact-link'
               >
                 Email Us
