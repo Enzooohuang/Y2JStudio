@@ -207,10 +207,11 @@ function App() {
             </p>
             <div className='contact-info'>
               <a
-                href='mailto:hello@y2jstudio.com'
+                href='mailto:=they2jstudio@gmail.com
+'
                 className='contact-link'
               >
-                hello@y2jstudio.com
+                Email Us
               </a>
             </div>
           </div>
